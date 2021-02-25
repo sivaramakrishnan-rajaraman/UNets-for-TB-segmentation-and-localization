@@ -1,4 +1,4 @@
-# UNets-for-TB-segmentation-and-localization
+# U-Nets for TB-consistent region segmentation and localization
 
 Deep learning (DL) has drawn tremendous attention in object localization and recognition for both natural and medical images. U-Net segmentation models have demonstrated superior performance compared to conventional hand-crafted feature-based methods. Medical image modality-specific DL models are better at transferring domain knowledge to a relevant target task than those that are pretrained on stock photography images. Using those helps improve model adaptation, generalization, and class-specific region of interest (ROI) localization. In this study, we train custom chest X-ray (CXR) modality-specific U-Net models for semantic segmentation of Tuberculosis (TB)-consistent findings. Automated segmentation of such manifestations could help radiologists reduce errors following initial interpretation and before finalizing the report. This could improve radiologist’s accuracy by supplementing decision-making while improving patient care and productivity. Our approach uses a comprehensive strategy that first uses publicly available TBX11K CXR dataset with weak TB annotations, typically provided as bounding boxes, to train a set of U-Net models. Next, we improve the results of the best performing model using an augmented training strategy on data with weak localizations from the outputs of a selection of DL classifiers that are trained to produce a binary decision ROI mask for suspected TB manifestations. The augmentation aims to improve performance with test data derived from the same training distribution and other cross-institutional collections including Shenzhen and Montgomery TB CXR datasets. We observe that compared to non-augmented training our augmented training strategy helped the custom CXR modality-specific U-Net models achieve superior performance with test data derived from the same training distribution as well as from cross-institutional collections. 
 
@@ -35,9 +35,9 @@ The CRM algorithm localized TB-consistent ROI involved in classifying the CXRs a
 
 ![alt text](crm_based_localization.png)
 
-classified as belonging to the background. Fig 16 shows an instance of TBX11K test image on which the predicted TB-consistent ROI mask is overlaid to delineate regions showing TB manifestations. 
+Figure below shows an instance of CXR test image on which the predicted TB-consistent ROI mask is overlaid to delineate regions showing TB manifestations. The GT is denoted by a green bounding box and predicted mask is denoted by a red bounding box. 
 
-
+![alt text](overlay.png)
 
 ### What is included?
 
