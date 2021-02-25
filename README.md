@@ -26,4 +26,10 @@ We studied the saliency maps to interpret the learned behavior of the VGG-16 fin
 
 ![alt text](saliency_overlap_shenzhentop_montbottom_with_gt.png)
 
+We used the CRM-based visualization algorithm to compare the localization performance of baseline (ImageNet-pretrained DL models) and the fine-tuned models toward highlighting TB manifestations. Figure below shows the following: (i) an instance of Montgomery TB CXR with consensus annotation, and (ii) TB-consistent ROI localization achieved with various fine-tuned models and their baseline counterparts. Features are extracted from the deepest convolutional layer of the fine-tuned models and their baseline counterparts. CRM localization algorithm is then used to localize TB-consistent ROI pixels involved in the final predictions. 
+
+![alt text](crm_based_localization.png)
+
 The repository includes a Jupyter notebook file that contains the code for the entire project with detailed discussions about the various levels of thhis stagewise, systematic study. The manuscript is currently under preparation. 
+
+## For furhter details pelase refere to our study entitled "Training custom modality-specific U-Net models with weak localizations for improved Tuberculosis segmentation and localization" available at https://arxiv.org/abs/2102.10607
