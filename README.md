@@ -41,6 +41,6 @@ Figure below shows an instance of CXR test image on which the predicted TB-consi
 
 ### What is included?
 
-The repository includes a Jupyter notebook file that contains the code for the entire project with detailed discussions about the various levels of thhis stagewise, systematic study. The manuscript is currently under preparation. 
+The repository includes a Jupyter notebook file that contains the code for the entire project with detailed discussions about the various levels of this stage-wise, systematic study.
 
 ## For further details pelase refere to our study entitled "Training custom modality-specific U-Net models with weak localizations for improved Tuberculosis segmentation and localization" available at https://arxiv.org/abs/2102.10607
