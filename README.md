@@ -35,6 +35,9 @@ The CRM algorithm localized TB-consistent ROI involved in classifying the CXRs a
 
 ![alt text](crm_based_localization.png)
 
+classified as belonging to the background. Fig 16 shows an instance of TBX11K test image on which the predicted TB-consistent ROI mask is overlaid to delineate regions showing TB manifestations. 
+
+
 
 ### What is included?
 
