@@ -43,4 +43,6 @@ Figure below shows an instance of CXR test image on which the predicted TB-consi
 
 The repository includes a Jupyter notebook file that contains the code for the entire project with detailed discussions about the various levels of this stage-wise, systematic study.
 
-## For further details pelase refere to our study entitled "Training custom modality-specific U-Net models with weak localizations for improved Tuberculosis segmentation and localization" available at https://arxiv.org/abs/2102.10607
+#### Kindly cite our study if you find these codes and results useful for your research:
+
+### Rajaraman, S.; Folio, L.R.; Dimperio, J.; Alderson, P.O.; Antani, S.K. Improved Semantic Segmentation of Tuberculosis—Consistent Findings in Chest X-rays Using Augmented Training of Modality-Specific U-Net Models with Weak Localizations. Diagnostics 2021, 11, 616. https://doi.org/10.3390/diagnostics11040616
